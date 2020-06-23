@@ -24,7 +24,7 @@ make install
 ```
 openocd --version
 ```
-### Installing USB Drivers for FPGA
+### Installing USB Drivers
 1. Download the Drivers for Mac OSX 10.4 Tiger or later [here](https://www.ftdichip.com/Drivers/D2XX/MacOSX/D2XX1.4.16.dmg)
 2. Open the dmg file and open a terminal at the D2XX folder by 
 
