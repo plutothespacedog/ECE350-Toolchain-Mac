@@ -2,7 +2,7 @@
 ## Installation
 ### Prequisites
 - Xcode (install from the AppStore)
-- Command Line Tools (install from Xcode 5 -> Preferences -> Downloads)
+- Command Line Tools (install from Xcode -> Preferences -> Downloads)
 - [Homebrew](http://mxcl.github.io/homebrew/)
 
 ### Installing via Homebrew 
