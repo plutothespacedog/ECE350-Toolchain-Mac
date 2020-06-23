@@ -49,7 +49,7 @@ sudo ln -sf /usr/local/lib/libftd2xx.1.4.16.dylib /usr/local/lib/
 ## Usage
 Included is a python script to program a .bit file to a Xilinx 7-Series FPGA. 
 
-From the directory with openocd.cfg, use:
+From the directory with digilent-nexys.cfg, use:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`python upload.py /Path/To/BitFile.bit`
 
