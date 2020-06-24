@@ -1,15 +1,18 @@
 # OpenOCD for Mac
 ## Installation
 ### Prequisites
-- Xcode (install from the AppStore)
-- Command Line Tools (install from Xcode -> Preferences -> Downloads)
-- [Homebrew](http://mxcl.github.io/homebrew/)
+- XCode Command Line Tools 
 
-### Installing via Homebrew 
-```
-brew install openocd
-brew install libtool automake libusb libusb-compat hidapi libftdi
-```
+### Installing Command Line Tools
+1. Install Xcode (install from the AppStore)
+2. from Xcode -> Preferences -> Downloads
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
+
+1. In a terminal window, enter
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`xcode-select --install`
+
 ### Installing Dependencies via GitHub
 ```
 git clone https://github.com/espressif/openocd-esp32.git openocd
@@ -21,8 +24,14 @@ git submodule update
 make install
 ```
 ### Test that it works 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`openocd --version`
+
+Output should look as follows, with your installation date
 ```
-openocd --version
+Open On-Chip Debugger  v0.10.0-esp32-20200526-6-g4c41a632 (2020-06-22-18:14)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
 ```
 ### Installing USB Drivers
 1. Download the Drivers for Mac OSX 10.4 Tiger or later [here](https://www.ftdichip.com/Drivers/D2XX/MacOSX/D2XX1.4.16.dmg)
