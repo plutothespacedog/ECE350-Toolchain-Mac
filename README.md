@@ -16,7 +16,7 @@ If you wish to install the software yourself, follow the instructions below.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
-### Installing Command Line Tools
+### Installing Xcode Command Line Tools
 Installing Homebrew will also install the Xcode Command Line Tools. You can install them using the Homebrew installer or manually yourself.
 1. Install Xcode (install from the AppStore)
 2. from Xcode -> Preferences -> Downloads
@@ -26,10 +26,6 @@ Installing Homebrew will also install the Xcode Command Line Tools. You can inst
 1. In a terminal window, enter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`xcode-select --install`
-
-### Installing GTKWave
-1. Copy the gtkwave.app folder to your applications folder
-2. Right click and select open
 
 ### Installing OpenOCD
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install --HEAD openocd`
@@ -44,6 +40,13 @@ For bug reports, read
 	http://openocd.org/doc/doxygen/bugs.html
 ```
 The repository includes files necessary to use OpenOCD as well as a python wrapper to expedite the programming process.
+
+### Installing Icarus Verilog
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install icarus-verilog`
+
+### Installing GTKWave
+1. Copy the gtkwave.app folder to your applications folder
+2. Right click and select open
 
 ### Installing USB Drivers
 1. Download the Drivers for Mac OSX 10.4 Tiger or later [here](https://www.ftdichip.com/Drivers/D2XX/MacOSX/D2XX1.4.16.dmg)
