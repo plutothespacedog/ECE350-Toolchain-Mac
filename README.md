@@ -12,7 +12,7 @@ If you wish to install the software yourself, follow the instructions below.
 
 ## Manual Installation
 ### Installing Homebrew
-1. In a termianl window, enter
+1. In a terminal window, enter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
@@ -28,21 +28,20 @@ Installing Homebrew will also install the Xcode Command Line Tools. You can inst
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`xcode-select --install`
 
 ### Installing OpenOCD
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install --HEAD openocd`
-#### Test that it works 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`openocd --version`
+In a terminal window, enter
 
-Output should look as follows, with your installation date
-```
-Open On-Chip Debugger  v0.10.0-esp32-20200526-6-g4c41a632 (2020-06-22-18:14)
-Licensed under GNU GPL v2
-For bug reports, read
-	http://openocd.org/doc/doxygen/bugs.html
-```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install --HEAD openocd`
+
+If you would like to build the image yourself, the complete instructions are available [here.](https://iverilog.fandom.com/wiki/Installation_Guide#Installation_From_Source)
+
 The repository includes files necessary to use OpenOCD as well as a python wrapper to expedite the programming process.
 
 ### Installing Icarus Verilog
+In a terminal window, enter
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install icarus-verilog`
+
+If you would like to build the image yourself, the complete instructions are available [here.](https://iverilog.fandom.com/wiki/Installation_Guide#Installation_From_Source)
 
 ### Installing GTKWave
 1. Copy the gtkwave.app folder to your applications folder
