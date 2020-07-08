@@ -7,15 +7,17 @@ To run, double click on the setup.command file. Installation takes ~5 minutes to
 - USB FTDI Drivers
 - Icarus Verilog 
 - GTKWave
+
 If you wish to install the software yourself, follow the instructions below.
 
 ## Manual Installation
 ### Installing Homebrew
-Installing Homebrew will also install the Xcode Command Line Tools. You can install them using this process or install them manually yourself.
 1. In a termianl window, enter
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
 ### Installing Command Line Tools
+Installing Homebrew will also install the Xcode Command Line Tools. You can install them using the Homebrew installer or manually yourself.
 1. Install Xcode (install from the AppStore)
 2. from Xcode -> Preferences -> Downloads
 
@@ -30,7 +32,7 @@ Installing Homebrew will also install the Xcode Command Line Tools. You can inst
 2. Right click and select open
 
 ### Installing OpenOCD
-`brew install --HEAD openocd`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install --HEAD openocd`
 #### Test that it works 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`openocd --version`
 
