@@ -16,4 +16,5 @@ else :
 				  "-c \"xc7_program xc7.tap\" \\\n"
 				  "-c \"pld load 0 %s\" \\\n"
 				  "-c \"exit\"" % filePath)
+		print(command)
 		os.system(command)
