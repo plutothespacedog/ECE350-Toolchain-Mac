@@ -32,7 +32,7 @@ In a terminal window, enter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install --HEAD openocd`
 
-If you would like to build the image yourself, the complete instructions are available [here.](https://iverilog.fandom.com/wiki/Installation_Guide#Installation_From_Source)
+If you would like to build the image yourself, the complete instructions are available [here.](http://openocd.org/documentation/). The repository for building the source is available [here.](https://sourceforge.net/p/openocd/code/ci/master/tree/)
 
 The repository includes files necessary to use OpenOCD as well as a python wrapper to expedite the programming process.
 
