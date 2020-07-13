@@ -49,7 +49,9 @@ echo "Installing GTKWave"
 if [ ! -d "/Applications/gtkwave.app" ]; then
     cp -r GTKwave.app /Applications
     echo 'alias gtkwave="open -a gtkwave"' >> ~/.bash_profile
+    echo 'alias gtkwave="open -a gtkwave"' >> ~/.zshenv
     source ~/.bash_profile
+    source ~/.zshenv
     gtkwave
     open "x-apple.systempreferences:com.apple.preference.security?General"
 else
