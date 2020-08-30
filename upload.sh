@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BIT_FILE="$*"
+BIT_FILE="$1"
 
 if [ -z "${BIT_FILE}" ]; then
 	echo "\nUsage python upload.py /Path/To/BitFile.bit\n"	
