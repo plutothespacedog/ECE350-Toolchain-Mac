@@ -3,7 +3,7 @@
 #  setup.sh
 #  
 #
-#  Created by Oliver Adolfo Rodas on 7/8/20.
+#  Created by Oliver Rodas on 7/8/20.
 #  
 
 echo "Starting Installation"

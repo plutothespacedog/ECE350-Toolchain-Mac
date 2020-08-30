@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BIT_FILE="$1"
+BIT_FILE="$*"
 
 if [ -z "${BIT_FILE}" ]; then
 	echo "\nUsage python upload.py /Path/To/BitFile.bit\n"	
@@ -20,7 +20,7 @@ else
 		-c "adapter speed 25000" \
 		-c "init" \
 		-c "xc7_program xc7.tap" \
-		-c "pld load 0 $BIT_FILE" \
+		-c "pld load 0 \"$BIT_FILE\"" \
 		-c "exit"
 	fi
 fi	
