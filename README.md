@@ -52,12 +52,12 @@ If you would like to build the image yourself, the complete instructions are ava
 To fix this error. Open a terminal window and use the following commands
 Unload the serial port driver
 
-`sudo kextunload -b com.FTDI.driver.FTDIUSBSerialDriver`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo kextunload -b com.FTDI.driver.FTDIUSBSerialDriver`
 
 Unload Apple FTDI driver if applicable
 
-`sudo kextunload -b com.apple.driver.AppleUSBFTDI`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo kextunload -b com.apple.driver.AppleUSBFTDI`
 
 Test OpenOCD again
 
-`./upload.sh FileName`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./upload.sh FileName`
