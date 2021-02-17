@@ -48,7 +48,7 @@ If you would like to build the image yourself, the complete instructions are ava
 2. Right click and select open
 
 ## Known Errors
-### libusb_claim_interface failed with LIBUSB_ERROR_ACCESS
+### libusb_claim_interface failed with LIBUSB_ERROR_ACCESS when using ./upload.sh
 To fix this error. Open a terminal window and use the following commands
 Unload the serial port driver
 
