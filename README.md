@@ -47,24 +47,17 @@ If you would like to build the image yourself, the complete instructions are ava
 1. Copy the gtkwave.app folder to your applications folder
 2. Right click and select open
 
-### Installing USB Drivers
-1. Download the Drivers for Mac OSX 10.4 Tiger or later [here](https://www.ftdichip.com/Drivers/D2XX/MacOSX/D2XX1.4.16.dmg)
-2. Open the dmg file and open a terminal at the D2XX folder by 
+## Known Errors
+### libusb_claim_interface failed with LIBUSB_ERROR_ACCESS
+To fix this error. Open a terminal window and use the following commands
+Unload the serial port driver
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right Clicking -> New Terminal at Folder
-  
-3. If the directory /usr/local/lib directory doesnt exist, use
+`sudo kextunload -b com.FTDI.driver.FTDIUSBSerialDriver`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo mkdir /usr/local/lib`
+Unload Apple FTDI driver if applicable
 
-4. If the directory /usr/local/include directory doesnt exist, use
+`sudo kextunload -b com.apple.driver.AppleUSBFTDI`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sudo mkdir /usr/local/include`
+Test OpenOCD again
 
-5. Copy the following files into the directories you just created and create a link so OpenOCD can find them
-```
-sudo cp libftd2xx.1.4.16.dylib /usr/local/lib/
-sudo cp ftd2xx.h /usr/local/include/ftd2xx.h
-sudo cp WinTypes.h /usr/local/include/WinTypes.h
-sudo ln -sf /usr/local/lib/libftd2xx.1.4.16.dylib /usr/local/lib/
-```
+`./upload.sh FileName`
