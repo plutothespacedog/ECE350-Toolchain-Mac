@@ -16,6 +16,9 @@ If you wish to install the software yourself, follow the instructions below.
 ## Optional - Linter
 If you use VSCode, the [most popular Verilog extension in the marketplace](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL) doesn't use the format that we use in the course to organize our files. If you wish to replace the linter file that comes with the that extension, you can do so by replacing the linter file with the following command, run from within the toolchain repository. 
 
+1. Install [the extension](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL)
+2. In a terminal window from within the Toolchain directory, enter 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`cp IcarusLinter.js ~/.vscode/extensions/mshr-h.veriloghdl-*/out/src/linter/IcarusLinter.js`
 
 ## Manual Installation
