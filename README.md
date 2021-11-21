@@ -39,7 +39,7 @@ Installing Homebrew will also install the Xcode Command Line Tools. You can inst
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`xcode-select --install`
 
 ### Installing OpenOCD
-In a terminal window, enter
+1. In a terminal window, enter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install --HEAD openocd`
 
@@ -48,15 +48,16 @@ If you would like to build the image yourself, the complete instructions are ava
 The repository includes files necessary to use OpenOCD as well as a python wrapper to expedite the programming process.
 
 ### Installing Icarus Verilog
-In a terminal window, enter
+1. In a terminal window, enter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install icarus-verilog`
 
 If you would like to build the image yourself, the complete instructions are available [here.](https://iverilog.fandom.com/wiki/Installation_Guide#Installation_From_Source)
 
 ### Installing GTKWave
-1. Copy the gtkwave.app folder to your applications folder
-2. Right click and select open
+1. In a terminal window, enter
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install gtkwave`
 
 ## Known Errors
 ### libusb_claim_interface failed with LIBUSB_ERROR_ACCESS when using ./upload.sh

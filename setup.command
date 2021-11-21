@@ -51,16 +51,7 @@ fi
 echo
 echo "Installing GTKWave"
 if [ ! -d "/Applications/gtkwave.app" ]; then
-    cp -r "$sourceDir/gtkwave.app" /Applications
-    echo '\nalias gtkwave="open -a gtkwave"' >> ~/.bash_profile
-    echo '\nalias gtkwave="open -a gtkwave"' >> ~/.zshenv
-    echo '\nalias gtkwave="open -a gtkwave"' >> ~/.zshrc
-    echo '\nalias gtkwave="open -a gtkwave"' >> ~/.zprofile
-    # source ~/.bash_profile
-    # source ~/.zshenv
-    # source ~/.zshrc
-    # gtkwave
-    # open "x-apple.systempreferences:com.apple.preference.security?General"
+    brew install gtkwave
 else
     echo "Already Satisfied"
 fi
