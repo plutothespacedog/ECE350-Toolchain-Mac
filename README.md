@@ -8,7 +8,15 @@ To run, double click on the setup.command file. Installation takes ~5 minutes to
 - Icarus Verilog 
 - GTKWave
 
+The repository includes a linter file for use with VSCode's popular Verilog extension. It is not automatically installed by the setup file, but the details are described below. 
+
+
 If you wish to install the software yourself, follow the instructions below.
+
+## Optional - Linter
+If you use VSCode, the [most popular Verilog extension in the marketplace](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL) doesn't use the format that we use in the course to organize our files. If you wish to replace the linter file that comes with the that extension, you can do so by replacing the linter file with the following command, run from within the toolchain repository. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`cp IcarusLinter.js ~/.vscode/extensions/mshr-h.veriloghdl-*/out/src/linter/IcarusLinter.js`
 
 ## Manual Installation
 ### Installing Homebrew
