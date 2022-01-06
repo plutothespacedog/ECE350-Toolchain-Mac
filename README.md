@@ -21,6 +21,8 @@ If you use VSCode, the [most popular Verilog extension in the marketplace](https
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`find ~/.vscode/extensions -name "mshr-h.veriloghdl-*" -exec cp IcarusLinter.js '{}'/out/src/linter/IcarusLinter.js \;`
 
+Note: This linter uses the general flow of how we teach you to use Icarus. You will need to create you file list and name it "FileList.txt" for this linter to work.
+
 ## Manual Installation
 ### Installing Homebrew
 1. In a terminal window, enter
