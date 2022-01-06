@@ -19,7 +19,7 @@ If you use VSCode, the [most popular Verilog extension in the marketplace](https
 1. Install [the extension](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL)
 2. In a terminal window from within the Toolchain directory, enter 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`cp IcarusLinter.js ~/.vscode/extensions/mshr-h.veriloghdl-*/out/src/linter/IcarusLinter.js`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`find ~/.vscode/extensions -name "mshr-h.veriloghdl-*" -exec cp IcarusLinter.js '{}'/out/src/linter/IcarusLinter.js \;`
 
 ## Manual Installation
 ### Installing Homebrew
