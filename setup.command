@@ -3,7 +3,7 @@
 #  setup.sh
 #  
 #
-#  Created by Oliver Rodas on 7/8/20.
+#  Created by Oliver Rodas on 7/8/20. //edited by Sam Seelig
 #  
 
 sourceDir="$(dirname "$BASH_SOURCE")"
@@ -51,7 +51,7 @@ fi
 echo
 echo "Installing GTKWave"
 if [ ! -d "/Applications/gtkwave.app" ]; then
-    brew install gtkwave
+    brew install --HEAD randomplum/gtkwave/gtkwave
 else
     echo "Already Satisfied"
 fi
