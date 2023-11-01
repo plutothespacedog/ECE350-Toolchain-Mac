@@ -3,7 +3,7 @@
 #  setup.sh
 #  
 #
-#  Created by Oliver Rodas on 7/8/20. //edited by Sam Seelig
+#  Created by Oliver Rodas on 7/8/20. //edited by Sam Seelig on 11/1/23
 #  
 
 sourceDir="$(dirname "$BASH_SOURCE")"
