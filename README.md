@@ -59,7 +59,7 @@ If you would like to build the image yourself, the complete instructions are ava
 ### Installing GTKWave
 1. In a terminal window, enter
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install gtkwave`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`brew install --HEAD randomplum/gtkwave/gtkwave`
 
 ## Known Errors
 ### libusb_claim_interface failed with LIBUSB_ERROR_ACCESS when using ./upload.sh
